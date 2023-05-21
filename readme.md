@@ -13,6 +13,7 @@ This article contains ideas and rules for setting up a project from structure to
 > 1. [Scripts](#scripts)
 > 1. [Asset Naming Conventions](#assetnamingconventions)
 > 1. [Asset Workflows](#assetworkflows)
+> 1. [Rules related to Git](#git)
 
 
 <a name="structure"></a>
@@ -1241,8 +1242,8 @@ For example, all the sprites associated with the Inventory panel must be in the 
 
 **[⬆ Back to Top](#table-of-contents)**
 
-
-## 5. How to use Git
+<a name="git"></a>
+## 5. Rules related to Git / How to use Git
 
 This section describes how we are going to use git and repos. First of all we are going to follow [Conventional Commits specification](https://www.conventionalcommits.org/tr/v1.0.0/#%C3%B6zet).
 
@@ -1255,3 +1256,5 @@ Other than that, we are going to use GitHub. We may decide to use PlasticSCM lat
 That way, we can split the asset imports into parts and ensure everyone knows we just imported an asset to the project. Also, because of the rules of git, we can't push too many objects at once. With this method, we can split the importing process into parts to walk around the limits(some sort of).
 
 Every developer will have their own branches; they can manage their commits and work in that branch till it’s ready to push it to the related branch, it can be the main branch, or it can be a feature branch. In that way, developers can push their changes to the git and keep working on another PC, or in the end, they can save their progress to the server to be safe from any loss.
+	
+**[⬆ Back to Top](#table-of-contents)**
