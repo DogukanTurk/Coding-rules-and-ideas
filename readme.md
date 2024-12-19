@@ -1,4 +1,4 @@
-# Coding rules and ideas
+# General Purpose Technical Design Document
 
 This article contains ideas and rules for setting up a project, from structure to naming conventions for scripts and assets.
 
